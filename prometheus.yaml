@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+   - job_name: nestjs-service
+     scrape_interval: 15s
+     scrape_timeout: 10s
+     metrics_path: /metrics
+     static_configs:
+      - targets:
+          - 'prometheus:9090'
+          - 'app:3000'
+#metrics_path refer to app module metric path          
