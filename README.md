@@ -1,4 +1,4 @@
-
+Monitoring your nestjs application metrics and analyze it with grafana and prometheus. I explained how to implement these. You can check out my medium post : [Nestjs Monitoring With Prometheus and Grafana](https://medium.com/@kaant43/monitoring-nestjs-application-with-grafana-prometheus-d8fbb629547f)
 #### Techs I use
  - NestJS
  - Docker
